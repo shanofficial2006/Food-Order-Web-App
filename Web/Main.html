@@ -43,11 +43,12 @@
 
             <!-- Header Image -->
              <div class="header-res">
-                <img src="/Res/Food.jpg" width="300px">
+                <img src="/Res/lavash-rolls-with-stuffings-tomatoes.jpg" width="500px">
              </div>
         </div>
      </header>
      
+
      <!-- Main -->
       <main>
         <h3 id="form-title">Search Your Foods</h3>
@@ -56,72 +57,129 @@
             <!-- title -->
             <form action="" method="post">
                 <input type="text" placeholder="Search Food">
-                <button type="submit" id="search-btn-form">Search</button>
+                <button type="button" id="search-btn-form">Search</button>
             </form>
          </section>
       </main>
 
 
-      <!-- Group Of Buttons Menu -->
+      <!-- Group Of Buttons Menu 
        <div class="group-of-buttons">
         <button class="btn-click">Soft Drinks</button>
         <button class="btn-click">Break Fast</button>
         <button class="btn-click">Lunch</button>
         <button class="btn-click">Dinner</button>
         <button class="btn-click">Desert</button>
+       </div>-->
+       
+       <section class="popular-foods">
+        <h2></h2>
+       </section>
+       <div class="group-of-img">
+        <button id="img-btn"><img src="/Res/beyti-kebab-wraps-tomato-sauce-with-grilled-peppers-close-up.jpg" width="100px" height="100px"></button>
+        <button id="img-btn"><img src="/Res/chicken-skewers-with-slices-sweet-peppers-dill.jpg" width="100px" height="100px"></button>
+        <button id="img-btn"><img src="/Res/fried-chicken-with-mushrooms-rice.jpg" width="100px" height="100px"></button>
+        <button id="img-btn"><img src="/Res/front-view-tasty-meat-soup-with-potatoes-greens-dark-desk-meal-meat-dish-sauce.jpg" width="100px" height="100px"></button>
+        <button id="img-btn"><img src="/Res/lamb-steak-pieces-with-sauces-grilled-pepper-fresh-salad-wooden-board.jpg" width="100px" height="100px"></button>
+        <button id="img-btn"><img src="/Res/stewed-white-beans-sliced-pumpkin-tomato-sauce.jpg" width="100px" height="100px"></button>
        </div>
-
+       
 
        <section class="food-cards">
         <div class="card-title">
-            <h2 id="offer-title">Offer Of The Day</h2>
+            <h2 id="offer-title">78% Offer Of The Day</h2>
         </div>
+
         <div class="card-sec">
         <div class="card">
-            <img src="/Res/Food.jpg" width="300px" height="240px">
-            <h3>Name Of Food</h3>
+            <img src="/Res/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
             <div class="item-flex">
-                <p>Price: $10</p>
-                <input type="number"  min="1" max="100" placeholder="Quantity">
+                <p>Price: $20</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
             </div>
-            <button type="button">Order</button>
+            <button type="button">View</button>
         </div>
 
         <!-- card two -->
         <div class="card">
-            <img src="/Res/Food.jpg" width="300px" height="240px">
-            <h3>Name Of Food</h3>
+            <img src="/Res/stewed-white-beans-sliced-pumpkin-tomato-sauce.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
             <div class="item-flex">
-                <p>Price: $10</p>
-                <input type="number"  min="1" max="100" placeholder="Quantity">
+                <p>Price: $14</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
             </div>
-            <button type="button">Order</button>
+            <button type="button">View</button>
         </div>
 
         <!-- card three -->
         <div class="card">
-            <img src="/Res/Food.jpg" width="300px" height="240px">
-            <h3>Name Of Food</h3>
+            <img src="/Res/lamb-steak-pieces-with-sauces-grilled-pepper-fresh-salad-wooden-board.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
             <div class="item-flex">
-                <p>Price: $10</p>
-                <input type="number"  min="1" max="100" placeholder="Quantity">
+                <p>Price: $19</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
             </div>
-            <button type="button">Order</button>
+            <button type="button">View</button>
         </div>
 
         <!-- Card Four -->
         <div class="card">
-            <img src="/Res/Food.jpg" width="300px" height="240px">
-            <h3>Name Of Food</h3>
+            <img src="/Res/front-view-tasty-meat-soup-with-potatoes-greens-dark-desk-meal-meat-dish-sauce.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
             <div class="item-flex">
-                <p>Price: $10</p>
-                <input type="number"  min="1" max="100" placeholder="Quantity">
+                <p>Price: $22</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
             </div>
-            <button type="button">Order</button>
+            <button type="button">View</button>
         </div>
         </div>
        </section>
 
-       
+       <!-- Breakfast Items Card -->
+        <section class="card-sec">
+            <div class="card">
+            <img src="/Res/beyti-kebab-wraps-tomato-sauce-with-grilled-peppers-close-up.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
+            <div class="item-flex">
+                <p>Price: $25</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
+            </div>
+            <button type="button">View</button>
+        </div>
+
+
+        <div class="card">
+            <img src="/Res/fried-chicken-with-mushrooms-rice.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
+            <div class="item-flex">
+                <p>Price: $23</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
+            </div>
+            <button type="button">View</button>
+        </div>
+
+
+        <div class="card">
+            <img src="/Res/chicken-skewers-with-slices-sweet-peppers-dill.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
+            <div class="item-flex">
+                <p>Price: $16</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
+            </div>
+            <button type="button">View</button>
+        </div>
+
+
+        <div class="card">
+            <img src="/Res/lavash-rolls-with-stuffings-tomatoes.jpg" width="300px" height="240px">
+            <h3 id="food-item">Name Of Food</h3>
+            <div class="item-flex">
+                <p>Price: $14</p>
+                <input type="number"  min="1" max="100" placeholder="Quantity" id="Quantity-number">
+            </div>
+            <button type="button">View</button>
+        </div>
+        </section>
 </body>
 </html>

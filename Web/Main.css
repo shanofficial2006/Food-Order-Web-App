@@ -18,17 +18,18 @@ nav > .navigation {
     height: 60px;
     background-color: rgb(255, 255, 255);
     font-size: 18px;
+    box-shadow: 0 2px 5px rgb(177, 177, 177);
 }
 .navigation-btn >a > #signup-btn{
-    background-color: rgb(255, 89, 29);
+    background-color: rgb(31, 184, 0);
     border: none;
-    height: 30px;
-    width: 70px;
+    height: 40px;
+    width: 100px;
     border-radius: 4px;
     color: #fff;
 }
 .navigation-btn > a > #signup-btn:hover{
-    background-color: #6b6b6b;
+    background-color: rgb(20, 119, 0);
     cursor: pointer;
 }
 
@@ -40,13 +41,15 @@ nav > .navigation {
 /* Header Section */
 
 .header-background{
-    background-color: rgb(255, 89, 29);
+    
     height: 70vh;
     display: flex;
     justify-content: space-around;
     place-items: center;
-    color: #fff;
+    color: #000000;
     flex-wrap: wrap-reverse;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
 }
 
 .header-main > a > button{
@@ -55,26 +58,31 @@ nav > .navigation {
     width: 110px;
     border: none;
     background-color: rgb(255, 255, 255);
-    color: #000000;
+    color: #ffffff;
     border-radius: 5px;
 }
 .header-main > p {
     margin-top: 1em;
 }
+.header-main > a > button{
+    background-color: rgb(30, 165, 0);
+}
 .header-main > a > button:hover{
-    background-color: rgb(255, 131, 86);
     cursor: pointer;
     transition: all 0.30s ease;
+    background-color: rgb(176, 223, 166);
 }
-
+.header-res > img {
+    border-radius: 20px;
+}
 /* form section */
 main {
+    background: linear-gradient(90deg ,rgb(20, 119, 0), rgb(109, 196, 90));
     justify-items: center;
     align-items: center;
     width: auto;
     height: 25vh;
-    background-color: #333;
-    color: #fff;
+    color: rgb(255, 255, 255)
 }
 main > h3{
     padding-top: 2em;
@@ -86,20 +94,21 @@ main > h3{
     width: 350px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid;
+    border: none;
 }
 #search-btn-form {
     height: 40px;
     width: 100px;
-    border: none;
-    background-color:rgb(255, 89, 29);
+    border: 1px solid rgb(20, 119, 0);
+    background: white;
     border-radius: 5px;
-    color: #fff;
+    color: #000000;
 }
 #search-btn-form:hover{
-    background-color: rgb(255, 131, 86);
+    background-color: rgb(20, 119, 0);
     cursor: pointer;
     transition: all 0.30s ease;
+    color: #fff;
 }
 
 /* Buttons Group */
@@ -116,17 +125,49 @@ main > h3{
     width: 100px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(255, 89, 29);
+    background-color: rgb(31, 184, 0);
     cursor: pointer;
     color: #fff;
 }
 .btn-click:hover{
-    background-color: rgb(255, 131, 86);
+    background-color: rgb(20, 119, 0);
     cursor: pointer;
     transition: all 0.30s ease;
 }
 
+/* Group Of Image */
+#img-btn > img{
+    height: 110px;
+    width: 120px;
+    border-radius: 10px;
+}
+.group-of-img{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    place-items: center;
+    flex-wrap: wrap;
+}
+#img-btn{
+    margin: 0 2em;
+    box-shadow: 0 2px 5px rgb(177, 177, 177);
+    border-radius: 10px;
+    height: 110px;
+    width: 110px;
+    border: none;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+#img-btn:hover{
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+}
 /* Cards Section */
+.card > img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 .card-sec{
     display: flex;
     justify-content: space-evenly;
@@ -134,7 +175,7 @@ main > h3{
 }
 .card-sec >.card{
     width: 300px;
-    height: 370px;
+    height: 420px;
     box-shadow: 0 2px 5px rgb(177, 177, 177);
     border-radius: 10px;
     margin-bottom: 2em;
@@ -142,13 +183,15 @@ main > h3{
 }
 .card-sec >.card:hover{
     transform: scale(1.1);
-    transition: all 1s ease-in-out
-    ;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
 }
 #offer-title{
     text-align: center;
     margin-top: 3em;
-    margin-bottom: 3em
+    margin-bottom: 3em;
+    font-size: 2em;
+    color: rgb(31, 184, 0);
 }
 .card > h3 {
     text-align: center;
@@ -164,14 +207,24 @@ main > h3{
     width: 200px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(255, 89, 29);
+    background-color: rgb(31, 184, 0);
     cursor: pointer;
     color: #fff;
     place-items: center;
-    margin: 1em 3.5em;
+    margin: 2em 3.5em;
 }
 .card > button:hover{
-    background-color: rgb(255, 131, 86);
+    background-color: rgb(20, 119, 0);
     cursor: pointer;
     transition: all 0.30s ease;
+}
+#Quantity-number{
+    width: 100px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    text-align: center;
+}
+#food-item{
+    padding-top: 1em;
 }
