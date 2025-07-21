@@ -1,0 +1,38 @@
+Git Commands :
+
+1. Git Clone
+2. Ls ( Show List )
+3. cd .\name of git repository\
+4. code . (Visual Studio will open)
+5. git add .\ filename
+6. git status
+7. git commit -m "Discription about project"
+8. git push
+9. git pull
+10. git reset
+11. GIT BRANCH 
+12. git checkout -b "new branch name"
+13. git checkout master (back to the brach)
+
+
+sanjay 243_ux;
+
+Github:
+
+username : Shan-Git-Coder
+password : Sabesan20061010@()
+==================================
+https://github.com/Shan-Git-Coder/Java-Code.git
+===============================================
+echo "# Java-Code" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Shan-Git-Coder/Java-Code.git
+git push -u origin main
+
+---------------------------------------------
+git remote add origin https://github.com/Shan-Git-Coder/Java-Code.git
+git branch -M main
+git push -u origin main
