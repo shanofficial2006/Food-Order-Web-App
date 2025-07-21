@@ -42,43 +42,42 @@ nav > .navigation {
 /* Header Section */
 
 .header-background{
-    
+    background-color: rgb(138, 204, 123);
     height: 70vh;
     display: flex;
     justify-content: space-around;
     place-items: center;
     color: #000000;
     flex-wrap: wrap-reverse;
-    border-bottom-right-radius: 150px;
-    border-bottom-left-radius: 150px;
+
 }
 
 .header-main > a > button{
     margin-top: 1em;
     height: 45px;
-    width: 110px;
+    width: 150px;
     border: none;
     background-color: rgb(255, 255, 255);
-    color: #ffffff;
+    color: #292929;
     border-radius: 5px;
 }
 .header-main > p {
     margin-top: 1em;
 }
-.header-main > a > button{
-    background-color: rgb(30, 165, 0);
-}
+
 .header-main > a > button:hover{
     cursor: pointer;
     transition: all 0.30s ease;
     background-color: rgb(176, 223, 166);
+    color: #fff;
 }
 .header-res > img {
     border-radius: 20px;
 }
 /* form section */
 main {
-    background: linear-gradient(90deg ,rgb(20, 119, 0), rgb(109, 196, 90));
+
+    background-color: rgb(39, 39, 39);
     justify-items: center;
     align-items: center;
     width: auto;
@@ -101,12 +100,12 @@ main > h3{
     height: 40px;
     width: 100px;
     border: 1px solid rgb(20, 119, 0);
-    background: white;
+    background: rgb(20, 119, 0);
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
 }
 #search-btn-form:hover{
-    background-color: rgb(20, 119, 0);
+    background-color: rgb(139, 185, 130);
     cursor: pointer;
     transition: all 0.30s ease;
     color: #fff;
@@ -228,4 +227,155 @@ main > h3{
 }
 #food-item{
     padding-top: 1em;
+}
+
+/* Whole card  */
+.whole-items > .whole-title {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 1.5em;
+    color: rgb(31, 184, 0);
+}
+
+.whole-cards-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.whole-card{
+    width: 400px;
+    height: 430px;
+    box-shadow: 0 2px 5px rgb(177, 177, 177);
+    border-radius: 10px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.whole-card:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+#whole-img {
+    border-radius: 10px;
+}
+#star-i{
+    color: gold;
+}
+#star-i-none{
+    color: rgb(119, 119, 119);
+}
+#whole-name-item{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.star-check{
+    display: flex;
+    justify-content: space-around;
+}
+#whole-order-btn{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(31, 184, 0);
+    cursor: pointer;
+    color: #fff;
+    place-items: center;
+    margin: 2em 7.5em;
+}
+#whole-order-btn:hover{
+    background-color: rgb(20, 119, 0);
+    cursor: pointer;
+    transition: all 0.30s ease;
+}
+
+/* Footer */
+.footer-sec{
+    display: flex;
+    background-color: rgb(20, 119, 0);
+    height: 20vh;
+    place-items: center;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 6em;
+}
+.footer-links{
+    text-align: center;
+}
+.footer-links > a{
+    color: #fff;
+}
+
+
+/* Responsive  */
+@media (max-width: 576px){
+    .header-res > img{
+        width: 350px;
+    }
+    .form-section > form > input {
+        width: 250px;
+    }
+    .navigation-menu{
+     display: none;
+    }
+}
+@media (max-width:425px) {
+    .header-res > img{
+        width: 350px;
+    }
+    .whole-card , .whole-card > img{
+        width: 300px;
+    }
+
+    .whole-title > h2{
+        font-size: 1em;
+    }
+    #whole-order-btn {
+            margin: 2em 4em;
+    }
+    .form-section > form > input {
+        width: 200px;
+    }
+    .navigation-menu{
+     display: none;
+    }
+    .header-background {
+        text-align: center;
+    }
+}
+
+@media (max-width:320px){
+    .header-res > img{
+        width: 250px;
+    }
+    .whole-card , .whole-card > img{
+        width: 250px;
+    }
+
+    #whole-order-btn {
+            margin: 2em 2em;
+    }
+    
+    .card > img {
+        width: 250px;
+    }
+
+    .card-sec >.card{
+    width: 250px;
+    height: 400px;
+    box-shadow: 0 2px 5px rgb(177, 177, 177);
+    border-radius: 10px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+    .card > button {
+        margin: 2em 2em;
+    }
+    .item-flex {
+        font-size: 0.8em;
+    }
 }
