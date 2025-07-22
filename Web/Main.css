@@ -218,6 +218,9 @@ main > h3{
     cursor: pointer;
     transition: all 0.30s ease;
 }
+.card > button > a{
+    color: #fff;
+}
 #Quantity-number{
     width: 100px;
     height: 20px;
@@ -276,7 +279,7 @@ main > h3{
     display: flex;
     justify-content: space-around;
 }
-#whole-order-btn{
+#whole-order-btn {
     height: 40px;
     width: 200px;
     border: none;
@@ -287,6 +290,9 @@ main > h3{
     place-items: center;
     margin: 2em 7.5em;
 }
+ #whole-order-btn > a{
+    color: #fff;
+ }
 #whole-order-btn:hover{
     background-color: rgb(20, 119, 0);
     cursor: pointer;
