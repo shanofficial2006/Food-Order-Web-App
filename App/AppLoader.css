@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(90deg, orangered,orange);
+    color: #fff;
+    font-family: 'Arial';
+}
+.logo >a > button{
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    height: 40px;
+    width: 170px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+#app,p{
+    margin-bottom: 1em;
+    color: #fff;
+}
