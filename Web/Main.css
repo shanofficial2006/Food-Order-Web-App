@@ -42,12 +42,12 @@ nav > .navigation {
 /* Header Section */
 
 .header-background{
-    background-color: rgb(138, 204, 123);
+    background-color: rgb(23, 139, 0);
     height: 70vh;
     display: flex;
     justify-content: space-around;
     place-items: center;
-    color: #000000;
+    color: #ffffff;
     flex-wrap: wrap-reverse;
 
 }
